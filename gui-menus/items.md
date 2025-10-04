@@ -52,7 +52,7 @@ slot: #
 >  - #-#
 > ```
 
-![Slots number in a chest](https://imgur.com/a/Dz5JGOM.png)
+<img src="https://github.com/VinceSMC/SMC-Developments/blob/2340e4f55e1d40989c508a8ca77ba1a6cb528394/images/slots.png" alt="Logo" width="auto" height="325">
 Sets the slot where the item should be placed in the menu.
 
 ### amount
@@ -152,6 +152,7 @@ type: TEXT
 Sets the item’s type. Item types attach special functions or behavior to an item.
 <br>Each plugin may also add its own unique item types.
 <br>Check the plugin’s documentation for supported values.
+
 
 
 
