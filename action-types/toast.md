@@ -39,7 +39,7 @@ actions:
 ### Goal toast with two-line message
 ```yaml
 actions:
- - "[toast] EMERALD GOAL &bQuest Complete!\&7You finished Chapter 1"
+ - "[toast] EMERALD GOAL Quest Complete!\You finished Chapter 1"
 ```
 
 ### Toast with glowing custom icon
