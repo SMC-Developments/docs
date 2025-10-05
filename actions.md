@@ -17,7 +17,7 @@ Actions are the core system used to make things happen on your server.
 | 9 | [`[title]`](action-types/title.md) | `<fade-in> <stay-time> <fade-out> <title>;[subtitle]` | Displays a title and subtitle on the player’s screen. |
 | 10 | [`[particle]`](action-types/particle.md) | `<particle> <amount> <offset-x> <offset-y> <offset-z> <speed> <visible-all>` | Displays a particle effect at the player’s location. |
 | 11 | [`[bossbar]`](action-types/bossbar.md) | `<style> <progress> <color> <duration> <text>` | Displays a temporary bossbar message at the top of the player’s screen. |
-| 12 | [`*[toast]`](action-types/toast.md) | `<icon> <frame> <header>;[footer]` | Displays a toast popup notification (like the advancement popups). |
+| 12 | [`*[toast]`](action-types/toast.md) | `<icon> <frame> <message>;[options]` | Displays a toast popup notification (like the advancement popups). |
 | 13| [`[hologram]`](action-types/hologram.md) | `<mode> <duration> <y> <text>` | Displays a temporary hologram in front of the player. Supports three modes.|
 | 14 | [`[summon]`](action-types/summon.md) | `<mob> <amount> <radius> [display-name]` | Summons one or more mobs near the player. |
 | 15 | [`[launch]`](action-types/launch.md) | `<mode> <arg1> <arg2> <arg3>;[options]` | Launches the player by applying a velocity. |
@@ -40,6 +40,7 @@ Action tags extend the behavior of actions with extra features.
 | 5  | [`@trigger`](action-tags/trigger.md) | Allows one action to trigger another. You can connect actions this way to build sequences or chain follow-up actions. |
 | 6  | [`@cooldown`](action-tags/cooldown.md) | Adds a cooldown to the action. This limits how often it can be triggered within a set time. |
 | 7  | [`@centered`](action-tags/centered.md) | Centers the text of a message action in chat. This tag only works with the `[message]` action type. |
+
 
 
 
