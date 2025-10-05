@@ -8,14 +8,21 @@
 
 ## Syntax
 *BEFORE: `[toast] <icon>;<header>;<footer>;<frame>`
+**THEN: `[toast] <icon> <frame> <header>;[footer]`
 ```
-[toast] <icon> <frame> <header>;[footer]
+[toast] <icon> <frame> <message>;[options]
 ```
 #### Arguments
 - **icon** — The material shown in the toast.
 - **frame** — The toast frame style (`TASK`, `GOAL`, `CHALLENGE`).
-- **header** — The main header text of the toast. Supports color codes and placeholders.
-- **footer** *(optional)* — A subtitle below the header.
+- **message** — The text shown in the toast. Supports color codes and placeholders. Use `\` to split the text into two lines.
+
+## Options
+
+Append after the arguments with a semicolon: `;key=value`
+
+- `glow=<boolean>` — If set to true, gives the icon a glowing effect.
+- `model-data=<value>` — Sets the CustomModelData value for the icon.
 
 ## Useful links
 - [Toast Frame Types](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/advancement/Advancement.Frame.html)
@@ -29,8 +36,14 @@ actions:
  - "[toast] DIAMOND TASK &aYou earned a reward!"
 ```
 
-### Goal toast with header and footer
+### Goal toast with two-line message
 ```yaml
 actions:
- - "[toast] EMERALD GOAL &bQuest Complete!;&7You finished Chapter 1"
+ - "[toast] EMERALD GOAL &bQuest Complete!\&7You finished Chapter 1"
+```
+
+### Toast with glowing custom icon
+```yaml
+actions:
+ - "[toast] PLAYER_HEAD CHALLENGE &6Master Collector!;glow=true;model-data=12"
 ```
