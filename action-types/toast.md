@@ -15,7 +15,7 @@
 #### Arguments
 - **icon** — The material shown in the toast.
 - **frame** — The toast frame style (`TASK`, `GOAL`, `CHALLENGE`).
-- **message** — The text shown in the toast. Supports color codes and placeholders. Use `\` to split the text into two lines.
+- **message** — The text shown in the toast. Supports color codes and placeholders. Use `\n` to split the text into two lines.
 
 ## Options
 
