@@ -7,6 +7,7 @@
 <br>Displays a toast popup notification (like the advancement popups).
 
 ## Syntax
+```
 [toast] <icon> <frame> <message>;[options]
 ```
 #### Arguments
