@@ -7,6 +7,7 @@
 <br>Gives or takes a certain amount of a currency from a player. Supports two actions:
 - **give** — Adds the specified currency to the player.
 - **take** — Removes the specified currency from the player.
+> [!NOTE]
 > Requires the *SMC-Currency* plugin to be installed.
 
 ## Syntax
