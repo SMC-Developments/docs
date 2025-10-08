@@ -5,6 +5,7 @@
 
 **Description**
 <br>Sends a chat message to the player.
+> [!NOTE]
 > Supports both **Minecraft color codes** (`&a`, `&e`, etc.) and the **MiniMessage format** for advanced styling (click actions, hover text, gradients, hex colors, etc.).
 
 ## Syntax
