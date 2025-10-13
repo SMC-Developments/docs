@@ -9,7 +9,8 @@ items:
     material: TEXT
     slot: #
 ```
-*Note: Always use a unique item-id to prevent conflicts.*
+> [!NOTE]
+> Always use a unique item-id to prevent conflicts.
 
 ### material
 ```yaml
@@ -152,6 +153,7 @@ type: TEXT
 Sets the item’s type. Item types attach special functions or behavior to an item.
 <br>Each plugin may also add its own unique item types.
 <br>Check the plugin’s documentation for supported values.
+
 
 
 
