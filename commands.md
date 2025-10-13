@@ -11,8 +11,8 @@ player-commands:
   commands: COMMANDS
 ```
 > [!NOTE]
-> *Note: You may see `player-commands` and `universal-commands`.  
-> player-commands are strictly for player use and will not work when used by the console, whereas universal-commands will work for both players and the console.*
+> You may see `player-commands` and `universal-commands`.  
+> player-commands are strictly for player use and will not work when used by the console, whereas universal-commands will work for both players and the console.
 
 ### register
 ```yaml
@@ -39,6 +39,7 @@ commands: COMMAND
 >  - COMMAND_2
 > ```
 Sets the command that triggers the specified feature.
+
 
 
 
