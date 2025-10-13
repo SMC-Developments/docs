@@ -5,14 +5,13 @@ Menus are highly flexible and can be combined with conditions and actions to cre
 
 ### Syntax
 ```yaml
-gui-menu:
-  title: "TEXT"
-  rows: #
-  inventory-type: "TEXT"
-  conditions: CONDITIONS
-  open-commands: COMMANDS
-  items: ITEMS
-  extensions: EXTENSIONS
+title: "TEXT"
+rows: #
+inventory-type: "TEXT"
+conditions: CONDITIONS
+open-commands: COMMANDS
+items: ITEMS
+extensions: EXTENSIONS
 ```
 
 ### title
@@ -68,5 +67,6 @@ extensions: EXTENSIONS
 Sets the extensions linked to this GUI menu.
 Extensions allow you to add extra lore or override click actions on existing items.
 <br>Check the [Extensions](https://github.com/VinceSMC/SMC-Developments/blob/284febd0ab3c6d5c2b839fa91d4bc69aae38247a/documentation/gui-menus/extensions.md) section for more information.
+
 
 
