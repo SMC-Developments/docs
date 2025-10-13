@@ -8,7 +8,8 @@ extensions:
   extension-id:
     lore: LIST
 ```
-*Note: Always use a unique extension-id to prevent conflicts.*
+> [!NOTE]
+> Always use a unique extension-id to prevent conflicts.
 
 ### lore
 ```yaml
@@ -85,3 +86,4 @@ extensions:
     left-click-actions:
      - "[message] &bThis is an extension action!"
 ```
+
