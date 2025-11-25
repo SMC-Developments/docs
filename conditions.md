@@ -29,6 +29,7 @@ conditions:
 | 2 | [`has permission`](requirement-types/has-permission.md) | Checks if the player has the specified permission. |
 | 3 | [`has currency`](requirement-types/has-currency.md) | Checks if the player has at least the specified amount of a currency. |
 | 4 | [`comparator`](requirement-types/comparator.md) | Compares an input with an output using operators like `==`, `>=`, etc. |
+| 5 | [`at location`](requirement-types/at-location.md) | Checks whether the player is at the required location. |
 
 ㅤ
 ## Examples
@@ -54,4 +55,5 @@ conditions:
      id: coins
      amount: 100
 ```
+
 
