@@ -36,7 +36,15 @@ lore:
  - "TEXT"
  - "TEXT"
 ```
-Sets the item’s lore (the text shown under the item’s name). Supports placeholders and color/format codes.
+> *Lore wrap*
+> ```yaml
+> lore:
+>  - text: "TEXT"
+>    wrap: true
+> ```
+> Lore lines can optionally be wrapped across multiple rows if the text is too long to fit on a single line.
+Sets the item’s lore (the text shown under the item’s name). 
+Supports placeholders and color/format codes.
 
 ### slot
 ```yaml
@@ -153,6 +161,7 @@ type: TEXT
 Sets the item’s type. Item types attach special functions or behavior to an item.
 <br>Each plugin may also add its own unique item types.
 <br>Check the plugin’s documentation for supported values.
+
 
 
 
