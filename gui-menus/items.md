@@ -28,7 +28,8 @@ Sets the material of the item.
 ```yaml
 display-name: "TEXT"
 ```
-Sets the item’s display name. Supports placeholders and color/format codes.
+Sets the item’s display name.
+<br>Supports placeholders and color/format codes.
 
 ### lore
 ```yaml
@@ -45,7 +46,7 @@ lore:
 > Lore lines can optionally be wrapped across multiple rows if the text is too long to fit on a single line.
 
 Sets the item’s lore (the text shown under the item’s name). 
-Supports placeholders and color/format codes.
+<br>Supports placeholders and color/format codes.
 
 ### slot
 ```yaml
@@ -131,7 +132,7 @@ If set to true, hides the vanilla attributes tooltip of the item. Only supported
 priority: #
 ```
 Sets the item’s priority number.
-<br> If multiple items want the same slot, the one with the highest priority is checked first. If its view-conditions are met, it is displayed; otherwise the plugin evaluates the next item in line. The highest priority is `0`.
+<br>If multiple items want the same slot, the one with the highest priority is checked first. If its view-conditions are met, it is displayed; otherwise the plugin evaluates the next item in line. The highest priority is `0`.
 
 ### click actions
 ```yaml
@@ -162,6 +163,7 @@ type: TEXT
 Sets the item’s type. Item types attach special functions or behavior to an item.
 <br>Each plugin may also add its own unique item types.
 <br>Check the plugin’s documentation for supported values.
+
 
 
 
