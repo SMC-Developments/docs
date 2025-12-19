@@ -44,7 +44,7 @@ lore:
 >    wrap: true
 > ```
 > Lore lines can optionally be wrapped across multiple rows if the text is too long to fit on a single line.
-> <br>The wrap width can be set in the Core's config.
+> <br>The wrap width can be set in the Core's config file.
 
 Sets the item’s lore (the text shown under the item’s name). 
 <br>Supports placeholders and color/format codes.
@@ -164,6 +164,7 @@ type: TEXT
 Sets the item’s type. Item types attach special functions or behavior to an item.
 <br>Each plugin may also add its own unique item types.
 <br>Check the plugin’s documentation for supported values.
+
 
 
 
