@@ -135,6 +135,13 @@ priority: #
 Sets the item’s priority number.
 <br>If multiple items want the same slot, the one with the highest priority is checked first. If its view-conditions are met, it is displayed; otherwise the plugin evaluates the next item in line. The highest priority is `0`.
 
+### view conditions
+```yaml
+view-conditions: CONDITIONS
+```
+Sets the conditions a player must meet to see the item.
+<br>Check the [Conditions](https://github.com/VinceSMC/SMC-Developments/blob/main/documentation/conditions.md) section for more information.
+
 ### click actions
 ```yaml
 left-click-actions: ACTIONS
@@ -147,11 +154,16 @@ Sets the actions to run when the item is clicked.
 <br>Actions execute from top to bottom in the list.
 <br>Check the [Actions](https://github.com/VinceSMC/SMC-Developments/blob/f5a97c218bf83512aa6d5232cb35e18444c6d88d/documentation/actions.md) section for more information.
 
-### view conditions
+### click conditions
 ```yaml
-view-conditions: CONDITIONS
+left-click-conditions: CONDITIONS
+shift-left-click-conditions: CONDITIONS
+right-click-conditions: CONDITIONS
+shift-right-click-conditions: CONDITIONS
+click-conditions: CONDITIONS
 ```
-Sets the conditions a player must meet to see the item.
+Sets the conditions that must be met for the item to react to the click.
+<br>If the conditions are not met, the click will not trigger any actions.
 <br>Check the [Conditions](https://github.com/VinceSMC/SMC-Developments/blob/main/documentation/conditions.md) section for more information.
 
 ### type
@@ -164,6 +176,7 @@ type: TEXT
 Sets the item’s type. Item types attach special functions or behavior to an item.
 <br>Each plugin may also add its own unique item types.
 <br>Check the plugin’s documentation for supported values.
+
 
 
 
