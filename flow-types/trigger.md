@@ -4,11 +4,9 @@
 <br>`trigger`
 
 **Description**
-The trigge` flow type defines an entry point for a flow that reacts to a specific event, such as a player joining the server.
-
-When a trigger is active, it listens for its configured event and, when fired, begins flow execution by routing to the next defined node.
-
-Triggers do not perform logic themselves, they only start or resume a flow.
+<br>The trigger flow type defines an entry point for a flow that reacts to a specific event, such as a player joining the server.
+<br>When a trigger is active, it listens for its configured event and, when fired, begins flow execution by routing to the next defined node.
+<br>Triggers do not perform logic themselves, they only start or resume a flow.
 
 ## Syntax
 ```yaml
@@ -44,6 +42,7 @@ routes: LIST
 ```yaml
 example-here
 ```
+
 
 
 
