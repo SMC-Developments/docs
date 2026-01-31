@@ -20,7 +20,7 @@
 trigger: TRIGGER_ID
 ```
 > *Supports:*
-> - **on-join** — TEXT
+> - `on-join` — TEXT
 
 Sets the trigger to activate this flow.
 
@@ -41,6 +41,7 @@ routes: LIST
 example-here
 
 ```
+
 
 
 
