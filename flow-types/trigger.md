@@ -7,7 +7,7 @@
 <br>TEXT
 
 ## Syntax
-```
+```yaml
 - id: FLOW_ID
   type: trigger
   trigger: TRIGGER_ID
@@ -35,4 +35,5 @@ routes: LIST
 ### example-1
 ```yaml
 example-here
+
 ```
