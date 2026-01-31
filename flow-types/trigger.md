@@ -37,6 +37,12 @@ If set to true, this trigger is always listening for its configured event.
 ```yaml
 routes: LIST
 ```
+> *Example:*
+> ```yaml
+> routes
+>  - to: FLOW_ID
+> ```
+Sets the transitions that occur after the trigger fires.
 
 ## Examples
 
@@ -44,6 +50,7 @@ routes: LIST
 ```yaml
 example-here
 ```
+
 
 
 
