@@ -22,14 +22,16 @@
 trigger: TRIGGER_ID
 ```
 > *Supports:*
-> - `on-join` — TEXT
+> - `on-join` — Fired when a player joins the server.
 
-Sets the trigger to activate this flow.
+Sets the event that activates this trigger.
 
 ### active
 ```yaml
 active: BOOLEAN
 ```
+If set to `true`, this trigger is always listening for its configured event.
+<br>If set to `false` (default), the trigger will only be executed when reached via a flow route.
 
 ### routes
 ```yaml
@@ -42,6 +44,7 @@ routes: LIST
 ```yaml
 example-here
 ```
+
 
 
 
