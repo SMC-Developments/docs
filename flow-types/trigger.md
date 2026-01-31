@@ -22,7 +22,7 @@ trigger: TRIGGER_ID
 > *Supports:*
 > - **on-join** — TEXT
 
-<br>Sets the trigger to activate this flow.
+Sets the trigger to activate this flow.
 
 ### active
 ```yaml
@@ -41,6 +41,7 @@ routes: LIST
 example-here
 
 ```
+
 
 
 
