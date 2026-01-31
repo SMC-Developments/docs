@@ -16,17 +16,17 @@
 ```
 
 ### trigger
-```
+```yaml
 trigger: TRIGGER_ID
 ```
 
 ### active
-```
+```yaml
 active: BOOLEAN
 ```
 
 ### routes
-```
+```yaml
 routes: LIST
 ```
 
@@ -37,3 +37,4 @@ routes: LIST
 example-here
 
 ```
+
