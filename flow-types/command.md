@@ -20,11 +20,14 @@
 ```yaml
 command: TEXT
 ```
+> *Multiple commands:*
+> ```yaml
+> commands:
+>  - COMMAND_1
+>  - COMMAND_2
+>  - COMMAND_3
+> ```
 Sets the command pattern that activates this node.
-
-> *Notes:*
-> - Commands may contain spaces (multi-word patterns).
-> - The longest matching command pattern should be used when multiple patterns overlap.
 
 ### active
 ```yaml
