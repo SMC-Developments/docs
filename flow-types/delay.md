@@ -18,7 +18,7 @@
 ```yaml
 duration: INTEGER
 ```
-Sets how long the flow should wait before continuing in seconds.
+Sets how long the flow should wait before continuing in ticks.
 
 ### routes
 ```yaml
