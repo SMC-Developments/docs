@@ -27,6 +27,7 @@ Sets a per-player cooldown (in seconds) for executing this node.
 actions: LIST
 ```
 Sets the actions that are executed by this node.
+<br>Check the [Actions](https://github.com/VinceSMC/SMC-Developments/blob/f5a97c218bf83512aa6d5232cb35e18444c6d88d/documentation/actions.md) section for more information.
 
 ### routes
 ```yaml
