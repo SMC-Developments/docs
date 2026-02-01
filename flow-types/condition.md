@@ -20,8 +20,8 @@
 ```yaml
 active: BOOLEAN
 ```
-If set to true, this node is always evaluated when its parent trigger is fired.
-<br>If set to false (default), the node will only be executed when reached via a flow route.
+If set to true, this condition is always checked.
+<br>If set to false (default), this condition is only checked when routed.
 
 ### conditions
 ```yaml
