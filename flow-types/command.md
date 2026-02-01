@@ -5,8 +5,6 @@
 
 **Description**
 <br>The command flow type listens for a command pattern and starts or continues the flow when the command is executed.
-<br>Command patterns can contain multiple words (for example, `is create`). Arguments begin after the matched command pattern.
-<br>When conditions are configured, the node produces a `pass` or `fail` result based on whether requirements pass.
 
 ## Syntax
 ```yaml
