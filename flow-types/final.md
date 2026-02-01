@@ -13,11 +13,3 @@
 - id: FLOW_ID
   type: final
 ```
-
-## Examples
-
-### example-1
-```yaml
-- id: end
-  type: final
-```
