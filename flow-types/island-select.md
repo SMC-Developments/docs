@@ -5,8 +5,6 @@
 
 **Description**
 <br>The island-select flow type lets a player choose which island schematic to use for island creation.
-<br>This node typically opens a selection GUI and stores the chosen schematic for later steps (for example, for `island-create`).
-<br>If the player completes a selection, the result is `pass`. If the selection is cancelled or times out, the result is `fail`.
 
 ## Syntax
 ```yaml
@@ -20,9 +18,6 @@
 ```yaml
 schematics: LIST
 ```
-(Optional) Sets which schematic ids can be selected.
-<br>If omitted, all available schematics are allowed.
-
 > *Example:*
 > ```yaml
 > schematics:
@@ -30,6 +25,9 @@ schematics: LIST
 >  - "desert"
 >  - "forest"
 > ```
+
+Sets which schematic ids can be selected.
+<br>If omitted, all available schematics are allowed.
 
 ### routes
 ```yaml
