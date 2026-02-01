@@ -11,7 +11,6 @@
 - id: FLOW_ID
   type: command
   command: TEXT
-  active: BOOLEAN
   conditions: CONDITIONS
   routes: LIST
 ```
@@ -28,13 +27,6 @@ command: TEXT
 >  - COMMAND_3
 > ```
 Sets the command pattern that activates this node.
-
-### active
-```yaml
-active: BOOLEAN
-```
-If set to true, this command listener is always active.
-<br>If set to false (default), the node will only be executed when reached via a flow route.
 
 ### conditions
 ```yaml
