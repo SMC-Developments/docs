@@ -5,27 +5,20 @@
 
 **Description**
 <br>The delay flow type pauses the flow for a configured duration before continuing.
-<br>This can be used for staged onboarding sequences, timed messages, or cinematic effects.
-<br>After the delay completes, the flow continues by routing to the next node.
 
 ## Syntax
 ```yaml
 - id: FLOW_ID
   type: delay
-  duration: NUMBER
+  duration: INTEGER
   routes: LIST
 ```
 
 ### duration
 ```yaml
-duration: NUMBER
+duration: INTEGER
 ```
-Sets how long the flow should wait before continuing.
-
-> *Example:*
-> ```yaml
-> duration: 3 ## seconds
-> ```
+Sets how long the flow should wait before continuing in seconds.
 
 ### routes
 ```yaml
@@ -44,7 +37,7 @@ Sets the transitions that occur after the delay completes.
 ```yaml
 - id: delay-example
   type: delay
-  duration: 3 ## seconds
+  duration: 3
   routes:
    - to: next-step
 ```
