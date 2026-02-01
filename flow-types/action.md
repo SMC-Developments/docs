@@ -5,8 +5,6 @@
 
 **Description**
 <br>The action flow type executes one or more configured actions.
-<br>Actions can be used to send messages, play sounds, open menus, or run other supported operations.
-<br>This node does not produce a `pass` or `fail` result by default and will continue by routing to the next node.
 
 ## Syntax
 ```yaml
@@ -21,7 +19,7 @@
 ```yaml
 cooldown: NUMBER
 ```
-(Optional) Sets a per-player cooldown (in seconds) for executing this node.
+Sets a per-player cooldown (in seconds) for executing this node.
 <br>If omitted, the node can execute without cooldown.
 
 ### actions
