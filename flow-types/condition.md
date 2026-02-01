@@ -4,9 +4,8 @@
 <br>`condition`
 
 **Description**
-<br>The condition flow type evaluates a configured conditions block and produces a boolean result.
-<br>If the configured requirements pass, the result is `pass`. If they do not pass, the result is `fail`.
-<br>The next node is chosen by routing based on the result.
+<br>The condition flow type checks whether the player meets the configured conditions.
+<br>If the conditions pass, the node produces a pass result. If they do not pass, the node produces a fail result.
 
 ## Syntax
 ```yaml
