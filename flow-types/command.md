@@ -40,9 +40,8 @@ If set to true, this command listener is always active.
 ```yaml
 conditions: CONDITIONS
 ```
-(Optional) Sets conditions that must pass to allow the command to continue.
-
-> If conditions are omitted, this node is treated as a `pass` result when the command matches.
+Sets conditions that must pass to allow the command to continue.
+<br>Check the [Conditions](https://github.com/VinceSMC/SMC-Developments/blob/main/documentation/conditions.md) section for more information.
 
 ### routes
 ```yaml
