@@ -28,9 +28,7 @@ If set to true, this condition is always checked.
 conditions: CONDITIONS
 ```
 Sets the conditions that are evaluated by this node.
-
-> This uses the same conditions format used throughout the plugin.
-> When requirements pass, the node result becomes `pass`. Otherwise, the result becomes `fail`.
+<br>Check the [Conditions](https://github.com/VinceSMC/SMC-Developments/blob/main/documentation/conditions.md) section for more information.
 
 ### routes
 ```yaml
