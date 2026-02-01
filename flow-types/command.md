@@ -41,7 +41,7 @@ If set to true, this command listener is always active.
 conditions: CONDITIONS
 ```
 Sets conditions that must pass to allow the command to continue.
-If omitted, this node is treated as a pass result when the command matches.
+<br>If omitted, this node is treated as a pass result when the command matches.
 <br>Check the [Conditions](https://github.com/VinceSMC/SMC-Developments/blob/main/documentation/conditions.md) section for more information.
 
 ### routes
