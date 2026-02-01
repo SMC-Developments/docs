@@ -10,14 +10,14 @@
 ```yaml
 - id: FLOW_ID
   type: action
-  cooldown: NUMBER
+  cooldown: INTEGER
   actions: LIST
   routes: LIST
 ```
 
 ### cooldown
 ```yaml
-cooldown: NUMBER
+cooldown: INTEGER
 ```
 Sets a per-player cooldown (in seconds) after executing this node. 
 <br>If the same node is reached again for the same player while the cooldown is active, the node will not execute.
