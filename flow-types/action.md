@@ -19,7 +19,7 @@
 ```yaml
 cooldown: NUMBER
 ```
-Sets a per-player cooldown (in seconds) for executing this node.
+Sets a per-player cooldown (in seconds) after executing this node. If the same node is reached again for the same player while the cooldown is active, the node will not execute.
 <br>If omitted, the node can execute without cooldown.
 
 ### actions
