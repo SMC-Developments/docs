@@ -5,8 +5,6 @@
 
 **Description**
 <br>The island-create flow type creates an island using the configured schematic.
-<br>If island creation succeeds, the result is `pass`. If it fails, the result is `fail`.
-<br>This node should be used after selection/validation steps such as `condition` and `island-select`.
 
 ## Syntax
 ```yaml
@@ -21,11 +19,6 @@
 schematic: TEXT
 ```
 Sets the schematic id to use for island creation.
-
-> *Example:*
-> ```yaml
-> schematic: default
-> ```
 
 ### routes
 ```yaml
