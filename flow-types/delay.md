@@ -37,7 +37,7 @@ Sets the transitions that occur after the delay completes.
 ```yaml
 - id: delay-example
   type: delay
-  duration: 3
+  duration: 60
   routes:
    - to: next-step
 ```
