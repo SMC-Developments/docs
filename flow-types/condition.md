@@ -47,7 +47,8 @@ routes: LIST
 > *Route options:*
 > - `result` — Specifies which condition result (`pass` or `fail`) this route applies to.
 > - `once` — If set to true, this route can only be taken once per player.
-<br>Sets the transitions that occur after the condition is evaluated.
+
+Sets the transitions that occur after the condition is evaluated.
 
 ## Examples
 
