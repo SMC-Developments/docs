@@ -43,25 +43,3 @@ routes: LIST
 >  - to: FLOW_ID
 > ```
 Sets the transitions that occur after the trigger fires.
-
-## Examples
-
-### example-1
-```yaml
-example-here
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
