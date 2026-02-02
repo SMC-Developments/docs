@@ -49,21 +49,3 @@ routes: LIST
 > - `once` — If set to true, this route can only be taken once per player.
 
 Sets the transitions that occur after the condition is evaluated.
-
-## Examples
-
-### example-1
-```yaml
-- id: check
-  type: condition
-  conditions:
-    requirements:
-     - type: "=="
-       input: "{player-has-island}"
-       output: "false"
-  routes:
-   - to: force-create
-     result: pass
-   - to: has-island
-     result: fail
-```
