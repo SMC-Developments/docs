@@ -49,16 +49,3 @@ routes: LIST
 >    result: fail
 > ```
 Sets the transitions that occur after the command is processed.
-
-## Examples
-
-### example-1
-```yaml
-- id: island-create-command
-  type: command
-  command: "is create"
-  active: true
-  routes:
-   - to: check
-     result: pass
-```
