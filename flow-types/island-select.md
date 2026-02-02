@@ -42,19 +42,3 @@ routes: LIST
 >    result: fail
 > ```
 Sets the transitions that occur after selection is completed.
-
-## Examples
-
-### example-1
-```yaml
-- id: island-select-example
-  type: island-select
-  schematics:
-   - "default"
-   - "example"
-  routes:
-   - to: island-create
-     result: pass
-   - to: end
-     result: fail
-```
