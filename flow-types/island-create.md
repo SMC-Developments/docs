@@ -33,17 +33,3 @@ routes: LIST
 >    result: fail
 > ```
 Sets the transitions that occur after island creation completes.
-
-## Examples
-
-### example-1
-```yaml
-- id: force-create
-  type: island-create
-  schematic: default
-  routes:
-   - to: island-created
-     result: pass
-   - to: creation-failed
-     result: fail
-```
