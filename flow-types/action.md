@@ -52,15 +52,3 @@ routes: LIST
 >  - to: FLOW_ID
 > ```
 Sets the transitions that occur after actions are executed.
-
-## Examples
-
-### example-1
-```yaml
-- id: island-created
-  type: action
-  actions:
-   - "[message] &aYour island has been created!"
-  routes:
-   - to: end
-```
