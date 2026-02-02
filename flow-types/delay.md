@@ -30,14 +30,3 @@ routes: LIST
 >  - to: FLOW_ID
 > ```
 Sets the transitions that occur after the delay completes.
-
-## Examples
-
-### example-1
-```yaml
-- id: delay-example
-  type: delay
-  duration: 60
-  routes:
-   - to: next-step
-```
