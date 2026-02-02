@@ -25,7 +25,7 @@ target: TARGET
 > - `island` — Executes actions for all players currently on the player's island.
 
 Sets which players the actions are executed for.
-If omitted, the target defaults to `self`.
+<br>If omitted, the target defaults to `self`.
 
 ### cooldown
 ```yaml
