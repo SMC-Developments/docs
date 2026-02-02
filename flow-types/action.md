@@ -10,10 +10,22 @@
 ```yaml
 - id: FLOW_ID
   type: action
+  target: TARGET
   cooldown: INTEGER
   actions: LIST
   routes: LIST
 ```
+
+### target
+```yaml
+target: TARGET
+```
+> *Supports:*
+> - `self` — Executes actions only for the player triggering the flow.
+> - `island` — Executes actions for all players currently on the player's island.
+
+Sets which players the actions are executed for.
+If omitted, the target defaults to `self`.
 
 ### cooldown
 ```yaml
