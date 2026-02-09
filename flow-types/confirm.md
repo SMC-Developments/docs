@@ -30,4 +30,5 @@ routes: LIST
 > *Route options:*
 > - `result` — Specifies which confirm result (`pass` or `fail`) this route applies to.
 > - `once` — If set to true, this route can only be taken once per player.
+
 Sets the transitions that occur after the player responds to the confirmation.
