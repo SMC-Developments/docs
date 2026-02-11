@@ -25,8 +25,9 @@ Actions are the core system used to make things happen on your server.
 | 17 | [`[effect]`](action-types/effect.md)    | `<type> <amplifier> <duration>` | Applies a potion effect to the player. |
 | 18 | [`[actionbar]`](action-types/actionbar.md) | `<duration> <text>` | Sends a message to the player’s actionbar (the text area above the hotbar). |
 | 19 | `[delay]` | `<duration>` | Executes the action after the specified delay (in ticks, 20 ticks = 1 second). |
-| 20 | `[chat]` | `<text>` | Send a message in chat as the player who this action got executed for. |
-| 21 | `[close]` | | Closes the currently opened GUI menu. |
+| 20 | `[suggest]` | `<text>` | Inserts text into the player’s chat input box. |
+| 21 | `[chat]` | `<text>` | Send a message in chat as the player who this action got executed for. |
+| 22 | `[close]` | | Closes the currently opened GUI menu. |
 
 ### Action tags
 Action tags extend the behavior of actions with extra features.
@@ -41,6 +42,7 @@ Action tags extend the behavior of actions with extra features.
 | 5  | [`@trigger`](action-tags/trigger.md) | Allows one action to trigger another. You can connect actions this way to build sequences or chain follow-up actions. |
 | 6  | [`@cooldown`](action-tags/cooldown.md) | Adds a cooldown to the action. This limits how often it can be triggered within a set time. |
 | 7  | [`@centered`](action-tags/centered.md) | Centers the text of a message action in chat. This tag only works with the `[message]` action type. |
+
 
 
 
