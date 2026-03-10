@@ -38,7 +38,12 @@ routes: LIST
 > routes:
 >  - to: FLOW_ID
 >    result: pass
+>    once: true
 >  - to: FLOW_ID
 >    result: fail
 > ```
+
+> *Route options:*
+> - `result` — Specifies which condition result (`pass` or `fail`) this route applies to.
+
 Sets the transitions that occur after selection is completed.
