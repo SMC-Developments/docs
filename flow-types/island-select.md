@@ -38,7 +38,6 @@ routes: LIST
 > routes:
 >  - to: FLOW_ID
 >    result: pass
->    once: true
 >  - to: FLOW_ID
 >    result: fail
 > ```
