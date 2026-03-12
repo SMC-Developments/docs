@@ -18,6 +18,8 @@
 placeholder: PLACEHOLDER
 ```
 > *Supports:*
-> - [PlaceholderAPI](https://wiki.placeholderapi.com/) — Allows metrics to retrieve values from any installed PlaceholderAPI expansion.
+> - [`PlaceholderAPI`](https://wiki.placeholderapi.com/) — Allows metrics to retrieve values from any installed PlaceholderAPI expansion.
+> - `Variables` — TEXT.
 
 Sets the placeholder used to retrieve the source value.
+
