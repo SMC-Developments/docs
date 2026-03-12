@@ -1,11 +1,10 @@
 ## Metrics
 Metrics are used to calculate progression values such as totals, percentages, and progress bars.  
 They allow you to convert raw data like levels, upgrades, or milestones into formatted results that can be displayed in menus, holograms, scoreboards, and other interfaces.
-
-Metrics are built using three parts:
-- **Sources** – provide the input data
-- **Calculations** – process the data
-- **Results** – format the output
+> Metrics are built using three parts:
+> - **Sources** – provide the input data
+> - **Calculations** – process the data
+> - **Results** – format the output
 
 ### Syntax
 ```yaml
