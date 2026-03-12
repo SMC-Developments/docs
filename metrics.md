@@ -15,12 +15,10 @@ They allow you to convert raw data like levels, upgrades, or milestones into for
 
 ### Syntax
 ```yaml
-metrics:
-
- - id: METRIC_ID
-   sources: SOURCES
-   calculations: CALCULATIONS
-   results: RESULTS
+id: METRIC_ID
+sources: SOURCES
+calculations: CALCULATIONS
+results: RESULTS
 ```
 
 ### id
