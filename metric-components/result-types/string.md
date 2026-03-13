@@ -18,10 +18,11 @@
 format: TEXT
 ```
 > *Supports:*
-> - `{SOURCE_ID}` — Allows results to reference values returned by configured sources.
-> - `{CALCULATION_ID}` — Allows results to reference values returned by calculations.
-> - `{RESULT_ID}` — Allows results to reference other formatted results.
+> - `{src_SOURCE_ID}` — Allows results to reference values returned by configured sources.
+> - `{calc_CALCULATION_ID}` — Allows results to reference values returned by calculations.
+> - `{res_RESULT_ID}` — Allows results to reference other formatted results.
 
 Sets the formatted text returned by the result.
+
 
 
