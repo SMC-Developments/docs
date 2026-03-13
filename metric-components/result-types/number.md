@@ -11,7 +11,8 @@
 - id: RESULT_ID
   type: number
   calculation: CALCULATION_ID
-  args: ARGUMENTS
+  decimals: NUMBER
+  suffix: TEXT
 ```
 
 ### calculation
@@ -20,15 +21,16 @@ calculation: CALCULATION_ID
 ```
 Sets the calculation whose result will be formatted and returned.
 
-### args
+### decimals
 ```yaml
-args: ARGUMENTS
+decimals: NUMBER
 ```
-> *Structure:*
-> ```yaml
-> args:
->   decimals: NUMBER
->   suffix: TEXT
-> ```
+Sets the amount of decimal places the number will be formatted with.
+<br>If omitted, the number is returned without decimal formatting.
 
-Sets the optional formatting arguments used when returning the number result.
+### suffix
+```yaml
+suffix: TEXT
+```
+Sets the text appended to the formatted number.
+<br>This is commonly used for units or percentages.
