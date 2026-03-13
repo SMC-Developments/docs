@@ -23,6 +23,7 @@ input: VALUE
 > *Supports:*
 > - [`PlaceholderAPI`](https://wiki.placeholderapi.com/) — Allows metrics to retrieve values from any installed PlaceholderAPI expansion.
 > - `variables` — Allows metrics to retrieve values from SMC-Core variable placeholders.
+> - `logics` — Allows metrics to retrieve values from SMC-Core logic placeholders.
 
 Sets the numeric value that will be evaluated against the configured ranges.
 
@@ -46,3 +47,4 @@ ranges: LIST
 > ```
 Sets the configured ranges used to determine the returned value.
 <br>Supports placeholders and variables.
+
