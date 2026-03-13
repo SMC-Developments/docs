@@ -38,7 +38,7 @@ sources: SOURCES
 > *Layout:*
 > ```yaml
 >- id: SOURCE_ID
->  type: SOURCE_TYPE
+>   type: SOURCE_TYPE
 > ```
 
 Sets the input values used by the metric.
