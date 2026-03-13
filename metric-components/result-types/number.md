@@ -20,8 +20,8 @@
 input: VALUE
 ```
 > *Supports:*
-> - `{SOURCE_ID}` — Allows results to reference values returned by configured sources.
-> - `{CALCULATION_ID}` — Allows results to reference values returned by calculations.
+> - `{src_SOURCE_ID}` — Allows results to reference values returned by configured sources.
+> - `{calc_CALCULATION_ID}` — Allows results to reference values returned by calculations.
 
 Sets the value that will be formatted and returned.
 
@@ -38,3 +38,4 @@ suffix: TEXT
 ```
 Sets the text appended to the formatted number.
 <br>This is commonly used for units or percentages.
+
