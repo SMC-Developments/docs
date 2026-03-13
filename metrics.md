@@ -35,7 +35,7 @@ Sets the unique identifier of the metric.
 ```yaml
 sources: SOURCES
 ```
-> *Layout:*
+> *Structure:*
 > ```yaml
 >- id: SOURCE_ID
 >   type: SOURCE_TYPE
