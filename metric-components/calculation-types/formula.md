@@ -25,4 +25,14 @@ formula: TEXT
 Sets the mathematical expression that will be evaluated to produce the calculation result.
 <br>Values from sources or other calculations can be referenced using placeholders.
 
+## Examples
 
+### Adds two numbers
+```yaml
+formula: "5 + 10"
+```
+
+### Divides a number and multiplies the result
+```yaml
+formula: "(20 / 4) * 3"
+```
