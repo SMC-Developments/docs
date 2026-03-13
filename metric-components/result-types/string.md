@@ -18,10 +18,6 @@
 ```yaml
 calculation: CALCULATION_ID
 ```
-> *Supports:*
-> - `{SOURCE_ID}` — Allows results to reference values returned by configured sources.
-> - `{CALCULATION_ID}` — Allows results to reference values returned by calculations.
-
 Sets the calculation whose result will be available for use in the formatted text.
 
 ### format
@@ -34,3 +30,4 @@ format: TEXT
 > - `{RESULT_ID}` — Allows results to reference other formatted results.
 
 Sets the formatted text returned by the result.
+
