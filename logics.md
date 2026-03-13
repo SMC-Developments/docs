@@ -32,6 +32,7 @@ Sets the unique identifier of the logic.
 value: TEXT
 ```
 Sets the placeholder whose returned value will be evaluated by the logic.
+<br>Supports PAPI placeholders.
 
 ### default
 ```yaml
@@ -52,6 +53,7 @@ responses: RESPONSES
 
 Defines the rules used to determine which value should be returned.
 <br>Check the [Response Types](logic-types) section for more information.
+
 
 
 
