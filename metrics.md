@@ -42,7 +42,7 @@ sources: SOURCES
 > ```
 
 Sets the input values used by the metric.
-<br>Check the [Source Types](metric-components/sources.md) section for more information.
+<br>Check the [Source Types](metric-components/sources-types) section for more information.
 
 ### calculations
 ```yaml
