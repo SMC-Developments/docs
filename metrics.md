@@ -42,6 +42,7 @@ sources: SOURCES
 > ```
 
 Sets the input values used by the metric.
+<br>This section is *optional* and is mainly used to organize or reuse values.
 <br>Check the [Source Types](metric-components/source-types) section for more information.
 
 ### calculations
