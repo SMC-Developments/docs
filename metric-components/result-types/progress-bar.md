@@ -4,7 +4,7 @@
 <br>`progress-bar`
 
 **Description**
-<br>The progress-bar result type returns a visual progress bar based on a current and maximum value.
+<br>The progress-bar result type returns a visual progress bar based on a current value relative to a maximum value.
 
 ## Syntax
 ```yaml
@@ -43,8 +43,7 @@ Sets the maximum value used to determine the total progress of the bar.
 ```yaml
 symbol: TEXT
 ```
-
-Sets the character used to render the progress bar.
+Sets the character used to render each segment of the progress bar.
 
 ### length
 ```yaml
