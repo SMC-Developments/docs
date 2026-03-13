@@ -6,8 +6,8 @@ They allow you to convert raw data like levels, upgrades, or milestones into for
 
 | # | Placeholder | Type | Description |
 |---|---|---|---|
-| 1 | `{mtr--<fileID>_<metricID>_<resultID>}` | Native | Returns the value of a metric result. |
-| 2 | `%smccore_mtr--<fileID>_<metricID>_<resultID>%` | PAPI | Returns the value of a metric result. |
+| 1 | `{metric--<fileID>_<metricID>_<resultID>}` | Native | Returns the value of a metric result. |
+| 2 | `%smccore_metric--<fileID>_<metricID>_<resultID>%` | PAPI | Returns the value of a metric result. |
 > [!NOTE]
 > Native placeholders are only supported within the SMC plugin ecosystem.  
 > PAPI placeholders can be used in any location that supports PlaceholderAPI.
