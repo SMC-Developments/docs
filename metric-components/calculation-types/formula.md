@@ -19,8 +19,8 @@
 formula: TEXT
 ```
 > *Supports:*
-> - `{SOURCE_ID}` — Allows calculations to reference values returned by configured sources.
-> - `{CALCULATION_ID}` — Allows calculations to reference values returned by other calculations.
+> - `{src_SOURCE_ID}` — Allows calculations to reference values returned by configured sources.
+> - `{calc_CALCULATION_ID}` — Allows calculations to reference values returned by other calculations.
 
 Sets the mathematical expression that will be evaluated to produce the calculation result.
 <br>Values from sources or other calculations can be referenced using placeholders.
@@ -36,3 +36,4 @@ formula: "5 + 10"
 ```yaml
 formula: "(20 / 4) * 3"
 ```
+
