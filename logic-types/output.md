@@ -1,6 +1,6 @@
 # output
 
-**Type**
+**Response type**
 <br>`output`
 
 **Description**
@@ -32,4 +32,5 @@ return: TEXT
 ```
 
 Sets the value returned when the output matches.
+
 
