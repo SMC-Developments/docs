@@ -16,6 +16,13 @@
 ```yaml
 condition: EXPRESSION
 ```
+> *Example:*
+> ```yaml
+> condition: "== true"
+> ```
+> Checks whether the input value matches the condition value.
+> <br>If true, the return value of this response will be used.
+
 Sets the comparison expression used to evaluate the input value.
 
 ### return
