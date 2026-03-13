@@ -19,9 +19,10 @@
 formula: TEXT
 ```
 > *Supports:*
-> - `sources` — Allows calculations to reference values returned by configured sources.
-> - `calculations` — Allows calculations to reference values returned by other calculations.
+> - `{SOURCE_ID}` — Allows calculations to reference values returned by configured sources.
+> - `{CALCULATION_ID}` — Allows calculations to reference values returned by other calculations.
 
 Sets the mathematical expression that will be evaluated to produce the calculation result.
 <br>Values from sources or other calculations can be referenced using placeholders.
+
 
