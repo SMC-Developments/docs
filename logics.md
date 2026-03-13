@@ -51,6 +51,7 @@ responses: RESPONSES
 > ```
 
 Defines the rules used to determine which value should be returned.
-<br>Check the [Response Types](logic-response-types) section for more information.
+<br>Check the [Response Types](logic-types) section for more information.
+
 
 
