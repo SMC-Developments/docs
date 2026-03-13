@@ -4,22 +4,26 @@
 <br>`number`
 
 **Description**
-<br>The number result type returns a formatted numeric value based on a calculation result.
+<br>The number result type returns a formatted numeric value based on an input value.
 
 ## Syntax
 ```yaml
 - id: RESULT_ID
   type: number
-  calculation: CALCULATION_ID
+  input: VALUE
   decimals: NUMBER
   suffix: TEXT
 ```
 
-### calculation
+### input
 ```yaml
-calculation: CALCULATION_ID
+input: VALUE
 ```
-Sets the calculation whose result will be formatted and returned.
+> *Supports:*
+> - `{SOURCE_ID}` — Allows results to reference values returned by configured sources.
+> - `{CALCULATION_ID}` — Allows results to reference values returned by calculations.
+
+Sets the value that will be formatted and returned.
 
 ### decimals
 ```yaml
