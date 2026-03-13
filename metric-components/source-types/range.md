@@ -5,7 +5,7 @@
 
 **Description**
 <br>The range source type returns a value based on a matching numeric range.
-<br>The configured `input` value is evaluated against the defined ranges to determine the returned value.
+<br>The configured [`input`](#input) value is evaluated against the defined ranges to determine the returned value.
 
 ## Syntax
 ```yaml
@@ -55,4 +55,5 @@ value: VALUE
 > - `variables` — Allows metrics to retrieve values from SMC-Core variable placeholders.
 
 Sets the value returned when the evaluated value falls within this range.
+
 
