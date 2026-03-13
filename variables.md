@@ -1,6 +1,6 @@
 ## Variables
 Variables allow you to define reusable values that can be referenced throughout your server.
-<br>They make it easy to centralize frequently used values such as text, colors, or formatting so that changes can be applied globally without modifying each individual configuration entry.
+<br>They make it easy to centralize frequently used values such as text and colors.
 
 ### Variable placeholders
 
@@ -29,4 +29,5 @@ Sets the unique identifier of the variable.
 ```yaml
 value: TEXT
 ```
+
 Sets the value of the variable.
