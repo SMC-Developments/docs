@@ -5,14 +5,26 @@
 
 **Description**
 <br>The range source type returns a value based on a matching numeric range.
+<br>The configured `input` value is evaluated against the defined ranges to determine the returned value.
 
 ## Syntax
 ```yaml
 - id: SOURCE_ID
   type: range
+  input: VALUE
   default: VALUE
   ranges: LIST
 ```
+
+### input
+```yaml
+input: VALUE
+```
+> *Supports:*
+> - [`PlaceholderAPI`](https://wiki.placeholderapi.com/) — Allows metrics to retrieve values from any installed PlaceholderAPI expansion.
+> - `variables` — Allows metrics to retrieve values from SMC-Core variable placeholders.
+
+Sets the numeric value that will be evaluated against the configured ranges.
 
 ### default
 ```yaml
@@ -43,3 +55,4 @@ value: VALUE
 > - `variables` — Allows metrics to retrieve values from SMC-Core variable placeholders.
 
 Sets the value returned when the evaluated value falls within this range.
+
