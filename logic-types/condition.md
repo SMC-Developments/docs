@@ -1,6 +1,6 @@
 # condition
 
-**Type**
+**Response type**
 <br>`condition`
 
 **Description**
@@ -41,4 +41,5 @@ Sets the value returned when the condition matches.
 | `<` | `input` is less than `output` |
 | `>=` | `input` is greater than or equal to `output` |
 | `<=` | `input` is less than or equal to `output` |
+
 
