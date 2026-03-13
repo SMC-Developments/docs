@@ -38,4 +38,8 @@ Sets the configured ranges used to determine the returned value.
 ```yaml
 value: VALUE
 ```
+> *Supports:*
+> - [`PlaceholderAPI`](https://wiki.placeholderapi.com/) — Allows metrics to retrieve values from any installed PlaceholderAPI expansion.
+> - `variables` — Allows metrics to retrieve values from SMC-Core variable placeholders.
+
 Sets the value returned when the evaluated value falls within this range.
