@@ -35,8 +35,14 @@ Sets the unique identifier of the metric.
 ```yaml
 sources: SOURCES
 ```
+> *Layout:*
+> ```yaml
+>- id: SOURCE_ID
+>  type: SOURCE_TYPE
+> ```
+
 Sets the input values used by the metric.
-<br>Check the [Sources](metric-components/sources.md) section for more information.
+<br>Check the [Source Types](metric-components/sources.md) section for more information.
 
 ### calculations
 ```yaml
