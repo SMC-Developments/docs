@@ -15,10 +15,10 @@ Logics allow you to dynamically modify the return value of a placeholder based o
 
 ### Syntax
 ```yaml
-  LOGIC_ID:
-    value: TEXT
-    default: TEXT
-    responses: RESPONSES
+LOGIC_ID:
+  value: TEXT
+  default: TEXT
+  responses: RESPONSES
 ```
 
 ### logic id
@@ -51,4 +51,5 @@ responses: RESPONSES
 > ```
 
 Defines the rules used to determine which value should be returned.
+
 Check the [Logic Response Types](logic-response-types) section for more information.
