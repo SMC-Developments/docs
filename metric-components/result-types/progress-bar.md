@@ -24,8 +24,8 @@
 current: TEXT
 ```
 > *Supports:*
-> - `{SOURCE_ID}` — Allows results to reference values returned by configured sources.
-> - `{CALCULATION_ID}` — Allows results to reference values returned by calculations.
+> - `{src_SOURCE_ID}` — Allows results to reference values returned by configured sources.
+> - `{calc_CALCULATION_ID}` — Allows results to reference values returned by calculations.
 
 Sets the current progress value used to determine how much of the bar should be filled.
 
@@ -34,8 +34,8 @@ Sets the current progress value used to determine how much of the bar should be 
 maximum: TEXT
 ```
 > *Supports:*
-> - `{SOURCE_ID}` — Allows results to reference values returned by configured sources.
-> - `{CALCULATION_ID}` — Allows results to reference values returned by calculations.
+> - `{src_SOURCE_ID}` — Allows results to reference values returned by configured sources.
+> - `{calc_CALCULATION_ID}` — Allows results to reference values returned by calculations.
 
 Sets the maximum value used to determine the total progress of the bar.
 
@@ -68,3 +68,4 @@ Sets the color used for the symbol representing the current progress position on
 color-empty: TEXT
 ```
 Sets the color used for the empty portion of the bar.
+
