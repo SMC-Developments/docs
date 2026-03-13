@@ -5,7 +5,7 @@
 
 **Description**
 <br>The formula calculation type evaluates a mathematical expression and returns the resulting value.
-<br>Calculations are powered by [`EvalEx`](https://ezylang.github.io/EvalEx/).
+<br>Calculations are powered by [EvalEx](https://ezylang.github.io/EvalEx/).
 
 ## Syntax
 ```yaml
@@ -24,3 +24,4 @@ formula: TEXT
 
 Sets the mathematical expression that will be evaluated to produce the calculation result.
 <br>Values from sources or other calculations can be referenced using placeholders.
+
