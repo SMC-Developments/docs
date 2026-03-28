@@ -16,7 +16,7 @@
 - **variableID** — Sets the variable identifier inside the file.
 
 ## Parameters
-Append after the arguments with a semicolon: `;key=value`.  
+Append after the arguments with a semicolon: `;key=value`.
 <br>When using multiple parameters, separate them with commas: `;key1=value1,key2=value2`.
 - `key=value` — Sets a parameter used to replace a matching placeholder in the variable (e.g. `{example}`).
 
