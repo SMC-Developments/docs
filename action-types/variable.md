@@ -4,7 +4,7 @@
 <br>`[variable]`
 
 **Description**
-<br>Resolves a variable and sends the resulting text to the player. Supports dynamic parameter replacement using key=value pairs, which are injected into placeholders (e.g. `{placeholder}`) defined in the variable.
+<br>Resolves a variable and sends the resulting text to the player.
 
 ## Syntax
 ```
@@ -17,20 +17,19 @@
 
 ## Parameters
 
-Append after the arguments with a semicolon: `;key=value`
-
-- `key=value` — Sets a parameter used to replace a matching placeholder in the variable (e.g. `{requirement}`).
+Append after the arguments with a semicolon: `;param=value`
+- `param=value` — Sets a parameter used to replace a matching placeholder in the variable (e.g. `{example}`).
 
 ## Examples
 
 ### Basic usage
 ```yaml
 actions:
- - "[variable] messages consume-requirement;requirement=Potato Collection VI"
+ - "[variable] text cooldown;time=30 seconds"
 ```
 
-### With placeholders
+### With PAPI placeholders
 ```yaml
 actions:
- - "[variable] messages consume-requirement;requirement=%smccollections_display-name_potato% Collection VI"
+ - "[variable] text requirement;requirement=%smccollections_display-name_potato% Collection VI"
 ```
