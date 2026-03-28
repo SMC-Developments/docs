@@ -24,8 +24,8 @@ Actions are the core system used to make things happen on your server.
 | 16  | [`[currency]`](action-types/currency.md) | `<action> <currency> <amount>` | Gives or takes a certain amount of a currency from a player. |
 | 17 | [`[effect]`](action-types/effect.md)    | `<type> <amplifier> <duration>` | Applies a potion effect to the player. |
 | 18 | [`[actionbar]`](action-types/actionbar.md) | `<duration> <text>` | Sends a message to the player’s actionbar (the text area above the hotbar). |
-| 19 | `[delay]` | `<duration>` | Executes the action after the specified delay (in ticks, 20 ticks = 1 second). |
-| 20 | `[suggest]` | `<text>` | Inserts text into the player’s chat input box. |
+| 19 | [`[variable]`](action-types/variable.md) | `<fileID> <variableID>;[parameters]` | Resolves a variable and sends the resulting text to the player. |
+| 20 | `[delay]` | `<duration>` | Executes the action after the specified delay (in ticks, 20 ticks = 1 second). |
 | 21 | `[chat]` | `<text>` | Send a message in chat as the player who this action got executed for. |
 | 22 | `[close]` | | Closes the currently opened GUI menu. |
 
