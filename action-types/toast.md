@@ -16,9 +16,7 @@
 - **message** — The text shown in the toast. Supports color codes and placeholders. Use `\n` to split the text into two lines.
 
 ## Options
-
 Append after the arguments with a semicolon: `;key=value`
-
 - `glow=<boolean>` — If set to true, gives the icon a glowing effect.
 - `model-data=<value>` — Sets the CustomModelData value for the icon.
 
