@@ -48,7 +48,8 @@ lore:
 > lore:
 >  - variable: "<fileID> <variableID>"
 >    parameters:
->      key: "value"
+>     - id: TEXT
+>       value: "TEXT"
 > ```
 > Lore lines can optionally be wrapped across multiple rows if the text is too long to fit on a single line.
 > <br>The wrap width can be set in the Core's config file.
