@@ -24,9 +24,11 @@ routes: LIST
 >    result: pass
 >  - to: FLOW_ID
 >    result: fail
+>  - to: FLOW_ID
+>    result: ignore
 > ```
 
 > *Route options:*
-> - `result` — Specifies which condition result (`pass` or `fail`) this route applies to.
+> * `result` — Specifies which route result this path applies to. Supported values: `pass`, `fail`, or `ignore`.
 
 Sets the transitions that occur after the teleport attempt.
