@@ -39,7 +39,16 @@ routes: LIST
 ```
 > *Example:*
 > ```yaml
-> routes
+> routes:
 >  - to: FLOW_ID
+>    result: pass
+>  - to: FLOW_ID
+>    result: fail
+>  - to: FLOW_ID
+>    result: ignore
 > ```
+
+> *Route options:*
+> * `result` — Specifies which route result this path applies to. Supported values: `pass`, `fail`, or `ignore`.
+
 Sets the transitions that occur after the trigger fires.
