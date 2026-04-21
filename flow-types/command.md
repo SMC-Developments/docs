@@ -47,13 +47,15 @@ routes: LIST
 >    result: pass
 >  - to: FLOW_ID
 >    result: fail
+>  - to: FLOW_ID
+>    result: ignore
 > ```
 
 > *Route options:*
 > * `result` — Specifies which route result this path applies to. Supported values: `pass`, `fail`, or `ignore`.
->   * `pass` = Used when the check succeeds.
->   * `fail` = Used when the check fails.
->   * `ignore` = Used when the player matches an entry from the ignore-flow section.
+>  * `pass` = Used when the check succeeds.
+>  * `fail` = Used when the check fails.
+>  * `ignore` = Used when the player matches an entry from the ignore-flow section.
 
 
 Sets the transitions that occur after the command is processed.
