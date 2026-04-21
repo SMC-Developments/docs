@@ -44,11 +44,11 @@ routes: LIST
 > ```yaml
 > routes:
 >  - to: FLOW_ID
->    result: pass
+>    result: pass # Used when the check succeeds.
 >  - to: FLOW_ID
->    result: fail
+>    result: fail # Used when the check fails.
 >  - to: FLOW_ID
->    result: ignore
+>    result: ignore # Used when the player matches an entry from the ignore-flow section.
 > ```
 
 > *Route options:*
