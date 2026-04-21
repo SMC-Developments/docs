@@ -39,13 +39,14 @@ routes: LIST
 > routes:
 >  - to: FLOW_ID
 >    result: pass
->    once: true
 >  - to: FLOW_ID
 >    result: fail
+>  - to: FLOW_ID
+>    result: ignore
 > ```
 
 > *Route options:*
-> - `result` — Specifies which condition result (`pass` or `fail`) this route applies to.
+> * `result` — Specifies which route result this path applies to. Supported values: `pass`, `fail`, or `ignore`.
 > - `once` — If set to true, this route can only be taken once per player.
 
 Sets the transitions that occur after the condition is evaluated.
