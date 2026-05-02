@@ -6,7 +6,7 @@
 **Description**
 <br>Adds one or more requirements that must be met before the action can run.
 
-> To add multiple conditions, separate them with `;`.  
+> To add multiple conditions, separate them with `},{`.
 > All conditions must be true for the action to run.
 
 ## Syntax
@@ -49,7 +49,7 @@ actions:
 ### Give a diamond only if multiple conditions are true
 ```yaml
 actions:
- - "[giveitem] DIAMOND;1@condition={type:permission,permission:rank.vip;type:>=,input:%smclevels_current_player-levels%,output:10}"
+ - "[giveitem] DIAMOND;1@condition={type:permission,permission:rank.vip},{type:>=,input:%smclevels_current_player-levels%,output:10}"
 ```
 
 
