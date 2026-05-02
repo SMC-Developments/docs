@@ -6,8 +6,8 @@
 **Description**
 <br>Adds one or more requirements that must be met before the action can run.
 
-> To add multiple conditions, separate them with `},{`. 
-> All conditions must be true for the action to run.
+> To add multiple conditions, separate them with `},{`.
+> <br>All conditions must be true for the action to run.
 
 ## Syntax
 
