@@ -142,7 +142,7 @@ Allows you to specify the trim material for armors.
 ```yaml
 trim-pattern: TRIM_PATTERN
 ```
-> *Available trim patterns:* [Trim Materials list](https://jd.papermc.io/paper/26.1.2/org/bukkit/inventory/meta/trim/TrimPattern.html)
+> *Available trim patterns:* [Trim Patterns list](https://jd.papermc.io/paper/26.1.2/org/bukkit/inventory/meta/trim/TrimPattern.html)
 
 Allows you to specify the trim pattern for armors.
 
