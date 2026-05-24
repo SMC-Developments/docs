@@ -116,8 +116,8 @@ Sets item flags for the item (e.g. `HIDE_ATTRIBUTES`).
 ### potion effects
 ```yaml
 potion-effects:
- - POTION-TYPE;DURATION;AMPLIFIER
- - POTION-TYPE;DURATION;AMPLIFIER
+ - POTION_TYPE;DURATION;AMPLIFIER
+ - POTION_TYPE;DURATION;AMPLIFIER
 ```
 > *Available effects:* [Potion Effects list](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html)
 
