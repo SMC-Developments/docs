@@ -96,8 +96,8 @@ Sets a CustomModelData value for the item (e.g. `model-data: 14`).
 ### enchantments
 ```yaml
 enchantments:
- - "ENCHANTMENT-ID;LEVEL"
- - "ENCHANTMENT-ID;LEVEL"
+ - "ENCHANTMENT_ID;LEVEL"
+ - "ENCHANTMENT_ID;LEVEL"
 ```
 > *Available enchantments:* [Enchantments list](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html)
 
@@ -106,8 +106,8 @@ Adds enchantments to the item (e.g. `SHARPNESS;3`).
 ### item flags
 ```yaml
 item-flags:
- - ITEM-FLAG
- - ITEM-FLAG
+ - ITEM_FLAG
+ - ITEM_FLAG
 ```
 > *Available flags:* [Item Flags list](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html)
 
@@ -129,6 +129,22 @@ Adds potion effects to the item.
 hex: "#000000"
 ```
 Sets the HEX color for leather armor, potions, splash potions, tipped arrows, and firework stars.
+
+### trim material
+```yaml
+trim-material: TRIM_MATERIAL
+```
+> *Available trim materials:* [Trim Materials list](https://jd.papermc.io/paper/26.1.2/org/bukkit/inventory/meta/trim/TrimMaterial.html)
+
+Allows you to specify the trim material for armors.
+
+### trim pattern
+```yaml
+trim-pattern: TRIM_PATTERN
+```
+> *Available trim patterns:* [Trim Materials list](https://jd.papermc.io/paper/26.1.2/org/bukkit/inventory/meta/trim/TrimPattern.html)
+
+Allows you to specify the trim pattern for armors.
 
 ### hide tooltip
 ```yaml
