@@ -11,7 +11,6 @@
 type: block below
 
 # Sets the block material that must be found below the player.
-# This also supports AIR.
 block: MATERIAL
 
 # Sets the block materials that may be found below the player.
@@ -20,7 +19,6 @@ blocks:
 - MATERIAL
 
 # Sets how many blocks below the player should be checked.
-# 0 checks the block directly underneath the player.
 distance: #
 ```
 
