@@ -4,9 +4,7 @@
 <br>`block below`
 
 **Description**
-<br>Checks if the block below the player matches the specified material. The distance can be changed to check a block further below the player.
-
-> `AIR` also matches `CAVE_AIR` and `VOID_AIR`.
+<br>Checks if the block below the player matches the specified material.
 
 ## Syntax
 ```yaml
