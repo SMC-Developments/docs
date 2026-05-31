@@ -16,7 +16,7 @@ block: MATERIAL
 # Sets the block materials that may be found below the player.
 # Use this when multiple materials should be accepted.
 blocks:
-- MATERIAL
+ - MATERIAL
 
 # Sets how many blocks below the player should be checked.
 distance: #
