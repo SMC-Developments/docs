@@ -30,6 +30,7 @@ conditions:
 | 3 | [`has currency`](requirement-types/has-currency.md) | Checks if the player has at least the specified amount of a currency. |
 | 4 | [`comparator`](requirement-types/comparator.md) | Compares an input with an output using operators like `==`, `>=`, etc. |
 | 5 | [`at location`](requirement-types/at-location.md) | Checks whether the player is at the required location. |
+| 6 | [`block below`](requirement-types/block-below.md) | Checks whether a specific block is located below the player. |
 
 ㅤ
 ## Examples
