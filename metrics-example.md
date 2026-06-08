@@ -3,6 +3,7 @@
 ```yaml
 id: progress-value
 
+# These are the source values, which you can use inside the calculations.
 sources:
  - id: current-value
    type: value
@@ -12,6 +13,7 @@ sources:
    type: value
    value: "%maximum-value%"
 
+# Here you can use the source values to create different calculations.
 calculations:
  - id: current
    type: formula
@@ -29,6 +31,7 @@ calculations:
    type: formula
    formula: "IF({calc_maximum} <= 0, 0, ({calc_current} / {calc_maximum}) * 100)"
 
+# Here you can format the calculations into usable results such as a number, progress-bar, a string etc.
 results:
  - id: current # {metric--example_progress-value_current}
    type: number
