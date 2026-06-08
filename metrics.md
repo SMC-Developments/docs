@@ -6,26 +6,18 @@ They allow you to convert raw data like levels, upgrades, or milestones into for
 
 | # | Placeholder | Type | Description |
 |---|---|---|---|
-| 1 | `{metric--<fileID>_<metricID>_<resultID>}` | Native | Returns the value of a metric result. |
-| 2 | `%smccore_metric--<fileID>_<metricID>_<resultID>%` | PAPI | Returns the value of a metric result. |
+| 1 | `{metric--<fileID>_<resultID>}` | Native | Returns the value of a metric result. |
+| 2 | `%smccore_metric--<fileID>_<resultID>%` | PAPI | Returns the value of a metric result. |
 > [!NOTE]
 > Native placeholders are only supported within the SMC plugin ecosystem.  
 > PAPI placeholders can be used in any location that supports PlaceholderAPI.
 
 ### Syntax
 ```yaml
-id: METRIC_ID
 sources: SOURCES
 calculations: CALCULATIONS
 results: RESULTS
 ```
-
-### id
-```yaml
-id: METRIC_ID
-```
-Sets the unique identifier of the metric.
-<br>This identifier is used when referencing the metric in placeholders.
 
 ### sources
 ```yaml
