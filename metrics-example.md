@@ -1,11 +1,5 @@
 # Metrics Example
 
-This file contains a simple metric example that shows how one source value can be converted into different result values.
-
-## Progress Value
-
-This example uses one placeholder as the source value and returns multiple formatted results from it.
-
 ```yaml
 id: progress-value
 
