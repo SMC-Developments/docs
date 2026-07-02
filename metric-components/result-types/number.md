@@ -13,6 +13,7 @@
   input: VALUE
   decimals: NUMBER
   suffix: TEXT
+  format: TEXT
 ```
 
 ### input
@@ -39,3 +40,16 @@ suffix: TEXT
 Sets the text appended to the formatted number.
 <br>This is commonly used for units or percentages.
 
+### format
+```yaml
+format: TEXT
+```
+> *Example formats:*
+> - `#,##0`
+> - `#,##0.0`
+> - `#,##0.00`
+> - `0`
+> - `0.##`
+
+Sets the number format used to format the returned value.
+<br>If omitted, the value is returned without additional number formatting.
