@@ -12,6 +12,7 @@
   type: number
   input: VALUE
   decimals: NUMBER
+  prefix: TEXT
   suffix: TEXT
   format: TEXT
 ```
@@ -32,6 +33,13 @@ decimals: NUMBER
 ```
 Sets the amount of decimal places the number will be formatted with.
 <br>If omitted, the number is returned without decimal formatting.
+
+### prefix
+```yaml
+prefix: TEXT
+```
+Sets the text prepended to the formatted number.
+<br>This is commonly used for currency symbols, labels, or other leading text.
 
 ### suffix
 ```yaml
