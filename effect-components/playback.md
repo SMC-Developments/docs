@@ -15,9 +15,6 @@ playback:
 
 > [!NOTE]
 > Effect playback is global. Every use of the same effect placeholder shares one timeline position, regardless of the player or location displaying it.
-> <br>Playback begins when the effect is loaded or reloaded.
->
-> PlaceholderAPI does not indicate whether resolved output is currently visible. Effects therefore do not start or restart when a menu, boss bar, entity display, or other destination becomes visible.
 
 ### mode
 ```yaml
