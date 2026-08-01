@@ -61,10 +61,3 @@ playback:
   mode: loop
   frame-rate: 20
 ```
-
-### Play an effect once after it is loaded or reloaded
-```yaml
-playback:
-  mode: once
-  frame-rate: 10
-```
