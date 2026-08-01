@@ -6,15 +6,15 @@
 **Description**
 <br>The playback component controls how an effect timeline is played and rendered.
 
+> [!NOTE]
+> Effect playback is global. Every use of the same effect placeholder shares one timeline position, regardless of the player or location displaying it.
+
 ## Syntax
 ```yaml
 playback:
   mode: TEXT
   frame-rate: NUMBER
 ```
-
-> [!NOTE]
-> Effect playback is global. Every use of the same effect placeholder shares one timeline position, regardless of the player or location displaying it.
 
 ### mode
 ```yaml
