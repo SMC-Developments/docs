@@ -23,7 +23,7 @@ playback:
 ```yaml
 mode: TEXT
 ```
-> *Supported values:* `loop`, `once`, `ping-pong`, `static`  
+> *Supported values:* `loop`, `ping-pong`, `static`  
 > *Default value:* `loop`
 
 Sets how the effect timeline is played.
@@ -31,7 +31,6 @@ Sets how the effect timeline is played.
 | Mode | Description |
 |---|---|
 | `loop` | Repeats the timeline continuously. |
-| `once` | Plays the timeline once when the effect is loaded or reloaded, then keeps its final rendered state. |
 | `ping-pong` | Plays the timeline forward and then in reverse. |
 | `static` | Renders one fixed state using only the root style and root layers. A timeline is not required. |
 
