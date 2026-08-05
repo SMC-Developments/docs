@@ -5,7 +5,7 @@ They define how each slot in the menu looks, behaves, and reacts when clicked.
 ### Syntax
 ```yaml
 items:
-  item-id:
+  ITEM_ID:
     material: TEXT
     slot: #
 ```
