@@ -5,7 +5,7 @@ Extensions allow you to extend or modify existing GUI menu items.
 ### Syntax
 ```yaml
 extensions:
-  extension-id:
+  EXTENSION_ID:
     lore: LIST
 ```
 > [!NOTE]
