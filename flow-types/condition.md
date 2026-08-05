@@ -46,7 +46,7 @@ routes: LIST
 > ```
 
 > *Route options:*
-> * `result` — Specifies which route result this path applies to. Supported values: `pass`, `fail`, or `ignore`.
+> - `result` — Specifies which route result this path applies to. Supported values: `pass`, `fail`, or `ignore`.
 > - `once` — If set to true, this route can only be taken once per player.
 
 Sets the transitions that occur after the condition is evaluated.
